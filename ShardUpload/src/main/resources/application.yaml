@@ -1,0 +1,26 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: SharduploadApplication
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/luren?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+    username: root
+    password: root
+  sql:
+    init:
+      schema-locations: classpath:db/init.sql
+      mode: always
+  servlet:
+    multipart:
+      max-file-size: 500MB
+      max-request-size: 1000MB
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*.xml
+
+
+logging:
+  level:
+    com:
+      itsoku: debug
