@@ -14,7 +14,7 @@ import java.io.IOException;
  * <b>time</b>： 21:03 <br>
  * <b>author</b>：ready likun_557@163.com
  */
-public interface ShardUploadService extends IService<ShardUploadPO> {
+public interface ShardUploadService {
     /**
      * 创建分片上传任务
      *
