@@ -1,5 +1,7 @@
 server:
   port: 8080
+  tomcat:
+    max-http-form-post-size: 100MB
 spring:
   application:
     name: SharduploadApplication
@@ -24,3 +26,7 @@ logging:
   level:
     com:
       itsoku: debug
+
+
+
+
