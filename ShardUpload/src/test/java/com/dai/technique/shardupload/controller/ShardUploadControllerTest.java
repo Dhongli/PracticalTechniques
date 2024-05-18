@@ -5,10 +5,8 @@ import com.dai.technique.shardupload.comm.Result;
 import com.dai.technique.shardupload.dto.ShardUploadCompleteRequest;
 import com.dai.technique.shardupload.dto.ShardUploadDetailResponse;
 import com.dai.technique.shardupload.dto.ShardUploadInitRequest;
-import com.dai.technique.shardupload.dto.ShardUploadPartRequest;
 import com.dai.technique.shardupload.utils.ShardUploadUtils;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.io.IOUtils;
 import org.junit.jupiter.api.Test;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.core.io.ByteArrayResource;
@@ -20,7 +18,6 @@ import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
