@@ -1,9 +1,8 @@
 package com.dai.technique.shardupload.comm;
 
 /**
- * <b>description</b>： Java高并发、微服务、性能优化实战案例100讲，视频号：程序员路人，源码 & 文档 & 技术支持，请加个人微信号：itsoku <br>
- * <b>time</b>：2024/3/26 21:09 <br>
- * <b>author</b>：ready likun_557@163.com
+ * @Description: rest风格返回工具类
+ * @date 2024-06-02 9:14
  */
 public class ResultUtils {
     public static final String SUCCESS = "1";
